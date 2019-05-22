@@ -3,7 +3,7 @@ function validateCode(string){
     let counter = 0;
     //initialize counter that will keep track of open parens without closed parens
     let chars = string.split('');
-    // Split string at spaces & create array of words/chars
+    // Split string at chars and create array of chars
   
     for(let i = 0; i < chars.length; i++) {
     //iterate through array 
